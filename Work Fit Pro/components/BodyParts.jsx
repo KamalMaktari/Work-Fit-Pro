@@ -53,7 +53,7 @@ const BodyPartCard = ({item, router, index}) => {
                         style = {{fontSize: hp(2.3)}}
                         className = "text-white font-semibold text-center tracking-wide"
                     >
-                        {item.name}
+                        {item?.name}
                     </Text>
             </TouchableOpacity>
         </View>
