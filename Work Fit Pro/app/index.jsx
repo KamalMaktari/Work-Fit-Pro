@@ -6,6 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import Animated, { FadeIn, FadeInDown, FadeOut } from 'react-native-reanimated';
 import { useRouter } from 'expo-router';
 
+
 export default function Index() {
 	const router = useRouter();
   return (

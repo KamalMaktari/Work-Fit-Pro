@@ -10,6 +10,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import ExerciseList from '../components/ExerciseList';
 import { ScrollView } from 'react-native-virtualized-view'
 
+
 export default function Exercises() {
 	const router = useRouter ();
 	const [exercises, setExercises] = useState ([]);
