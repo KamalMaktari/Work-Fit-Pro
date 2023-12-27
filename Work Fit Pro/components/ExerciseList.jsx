@@ -1,12 +1,11 @@
 import { View, Text, FlatList, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { useRouter } from 'expo-router';
+import { useRouter } from 'expo-router'
 import { Image } from 'expo-image';
-import { widthPercentageToDP } from 'react-native-responsive-screen';
 import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 export default function ExerciseList({data}) {
-    const router = useRouter
+    const router = useRouter();
   return (
     <View>
       <FlatList
