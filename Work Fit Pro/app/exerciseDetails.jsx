@@ -43,7 +43,7 @@ export default function exerciseDetails() {
                 style = {{fontSize: hp(2)}} 
                 className = 'text-neutral-700 tracking-wide' 
             >
-                Equipment <Text className = 'font-bold text-neutral-800'>
+                Equipment: <Text className = 'font-bold text-neutral-800'>
                     {item?.equipment}
                 </Text>
             </Animated.Text>
@@ -52,7 +52,7 @@ export default function exerciseDetails() {
                 style = {{fontSize: hp(2)}} 
                 className = 'text-neutral-700 tracking-wide' 
             >
-                Secondary Muscles <Text className = 'font-bold text-neutral-800'>
+                Secondary Muscles: <Text className = 'font-bold text-neutral-800'>
                     {item?.secondaryMuscles}
                 </Text>
             </Animated.Text>
@@ -61,7 +61,7 @@ export default function exerciseDetails() {
                 style = {{fontSize: hp(2)}} 
                 className = 'text-neutral-700 tracking-wide' 
             >
-                Target <Text className = 'font-bold text-neutral-800'>
+                Target: <Text className = 'font-bold text-neutral-800'>
                     {item?.target}
                 </Text>
             </Animated.Text>
