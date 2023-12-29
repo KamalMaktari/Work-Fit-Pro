@@ -48,7 +48,7 @@ $ npm install
 ```
 
 
-6. First option is to scan the QR code that displays in the terminal to run the app on a IOS/Android device, which requires 'Expo Go' to be installed (can be found in App Store/Play Store). Second option is to have a IOS/Android emulator downloaded onto your local machine to run the app. Once downloaded, turn on the emulator. 
+6. First option is to scan the QR code that displays in the terminal to run the app on a IOS/Android device, which requires 'Expo Go' to be installed (can be found in App Store/Play Store). Second option is to have a IOS/Android emulator downloaded onto your local machine to run the app. The emulator requires 'Expo Go' to be installed (can be found in App Store/Play Store). Once downloaded, turn on the emulator. 
 
 
 7. Once you do one of the 2 options in step 6, un the command: 
