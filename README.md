@@ -34,11 +34,10 @@ $ git clone https://github.com/KamalM-01/Final-Year-Project.git
 ```
 
 
-4. Once cloned onto local folder, u must change directory to 'Work Fit Pro' which can be achieved by running the commands: 
+4. Once cloned onto local folder, u must change directory to 'Work Fit Pro' which can be achieved by running the following command: 
 
 ```console
-$ cd Final-Year-Project
-$ cd 'Work Fit Pro'
+$ cd Final-Year-Project/'Work Fit Pro'
 ```
 
 
