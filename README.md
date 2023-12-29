@@ -48,19 +48,45 @@ $ npm install
 ```
 
 
-6. First option is to scan the QR code that displays in the terminal to run the app on a IOS/Android device, which requires 'Expo Go' to be installed (can be found in App Store/Play Store). Second option is to have a IOS/Android emulator downloaded onto your local machine to run the app. The emulator requires 'Expo Go' to be installed (can be found in App Store/Play Store). Once downloaded, turn on the emulator. 
-
-
-7. Once you do one of the 2 options in step 6, un the command: 
+6. To run the server, run the following command: 
 
 ```console
 $ npm start
 ```
 
 
-8. If you chose to do the first option of step 6 then scan the QR code displayed on the terminal. If you chose to do the second option of step 6, press 'i' if using IOS emulator, or press 'a' if using Android emulator.
+7. Now you have two options. First option is to scan the QR code that displays on the terminal to run the app on a IOS/Android device, which requires 'Expo Go' to be installed (can be found in App Store/Play Store). Second option is to have a IOS/Android emulator downloaded onto your local machine to run the app. The emulator requires 'Expo Go' to be installed (can be found in App Store/Play Store within the emulator). Once downloaded, make sure the emulator stays on. 
+
+
+8. If you chose to do the first option of step 7 then scan the QR code displayed on the terminal using the IOS/Android device. If you chose to do the second option of step 7, press 'i' to load up Work Fit Pro on a IOS emulator, or press 'a' to load up Work Fit Pro on a Android emulator. 
 
 
 9. Work Fit Pro should now be running on your chosen device. 
+
+
+## Remove Errors
+
+To remove ViewPropTypes error from displaying on Work Fit Pro, follow these steps:
+
+
+1. Make sure your terminal is on the 'Work Fit Pro' directory. 
+
+
+2. Run the following command:
+
+```console
+$ npm install deprecated-react-native-prop-types
+```
+
+3. Comment out the following lines from: 383-389, 393-399, 403-409, 413-419.
+
+
+4. Stop the server by pressing 'ctrl + c' and close the Expo Go app on your device. 
+
+
+5. Now follow steps 6-9 from Local Development Instructions to get Work Fit Pro running again. 
+
+
+6. You should now no longer see the ViewPropTypes error when running Work Fit Pro.  
 
 
