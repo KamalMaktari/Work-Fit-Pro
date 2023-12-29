@@ -1,4 +1,4 @@
-# Final Year Project
+# Work Fit Pro
 
 Work Fit Pro - A Workout App
 
