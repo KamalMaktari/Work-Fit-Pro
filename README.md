@@ -2,7 +2,7 @@
 
 Work Fit Pro - A Workout App
 
-## Local Development
+## Local Deployment 
 
 To run this project in your development machine, follow these steps:
 
